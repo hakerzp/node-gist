@@ -262,7 +262,7 @@ Napi::Value GistNative::getMagnitudeSpectrum(const Napi::CallbackInfo& info) {
     const int numSpecs = magSpec.size();
 
     Napi::Array values = Napi::Array::New(env);
-    for (int i = 0; i < numSpecs; i++) {
+    for (size_t  i = 0; i < numSpecs; i++) {
         values[i] = magSpec[i];
     }
 
@@ -284,7 +284,7 @@ Napi::Value GistNative::getMelFrequencySpectrum(const Napi::CallbackInfo& info) 
     const int numSpecs = melSpec.size();
 
     Napi::Array values = Napi::Array::New(env);
-    for (int i = 0; i < numSpecs; i++) {
+    for (size_t  i = 0; i < numSpecs; i++) {
         values[i] = melSpec[i];
     }
 
@@ -299,7 +299,7 @@ Napi::Value GistNative::getMelFrequencyCepstralCoefficients(const Napi::Callback
     const int numMFCCs = mfcc.size();
 
     Napi::Array values = Napi::Array::New(env);
-    for (int i = 0; i < numMFCCs; i++) {
+    for (size_t  i = 0; i < numMFCCs; i++) {
         values[i] = mfcc[i];
     }
 
