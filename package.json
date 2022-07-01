@@ -8,7 +8,7 @@
     "module_name": "gist",
     "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://github.com/mathquis/node-gist/releases/download/",
+    "host": "https://github.com/hakerzp/node-gist/releases/download/",
     "remote_path": "{version}"
   },
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathquis/node-gist.git"
+    "url": "git+https://github.com/hakerzp/node-gist.git"
   },
   "keywords": [
     "audio",
@@ -44,7 +44,7 @@
   "author": "Mathieu \"Fastjack\" Quisefit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathquis/node-gist/issues"
+    "url": "https://github.com/hakerzp/node-gist/issues"
   },
-  "homepage": "https://github.com/mathquis/node-gist#readme"
+  "homepage": "https://github.com/hakerzp/node-gist#readme"
 }
