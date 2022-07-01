@@ -1,5 +1,5 @@
 {
-  "name": "@mathquis/node-gist",
+  "name": "@hakerzp/node-gist",
   "version": "1.0.3",
   "description": "Node binding for the Gist Audio Analysis Library",
   "main": "lib/index.js",
