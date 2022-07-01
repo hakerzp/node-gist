@@ -152,7 +152,7 @@ Napi::Value GistNative::processAudioFrame(const Napi::CallbackInfo& info) {
 
     std::vector<float> audioFrame;
 
-    for (int i = 0; i < numElements; i++) {
+    for (size_t  i = 0; i < numElements; i++) {
         audioFrame.push_back(frames[i]);
     }
 
