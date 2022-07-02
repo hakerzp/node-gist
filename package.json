@@ -4,6 +4,7 @@
   "description": "Node binding for the Gist Audio Analysis Library",
   "main": "lib/index.js",
   "gypfile": true,
+  "private": false,
   "binary": {
     "module_name": "gist",
     "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
