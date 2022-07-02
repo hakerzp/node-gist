@@ -1,6 +1,6 @@
 {
   "name": "@hakerzp/node-gist",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Node binding for the Gist Audio Analysis Library",
   "main": "lib/index.js",
   "gypfile": true,
